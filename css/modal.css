@@ -48,7 +48,7 @@
   width: 24px;
   height: 24px;
   padding: 0;
-  border: 1px solid rgb(0 0 0 / 10%);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
   color: #2e2f42;
   background-color: #e7e9fc;
@@ -108,12 +108,13 @@
   border: 1px solid rgb(46 47 66 / 40%);
   border-radius: 4px;
   outline: transparent;
-  color: #2e2f42;
+  color: #434455;
   background-color: transparent;
   font-family: inherit;
-  transition:
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-icon {
@@ -147,15 +148,13 @@
   border-radius: 4px;
   outline: transparent;
   resize: none;
-  color: #2e2f42;
+  color: #434455;
   background-color: transparent;
   font-family: inherit;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  transition:
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-comment::placeholder {
